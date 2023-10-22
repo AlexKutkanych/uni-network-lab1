@@ -1,0 +1,30 @@
+.App {
+  min-height: 100vh;
+  background-color: #282c34;
+  text-align: center;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.App-meme {
+  max-width: 400px;
+  display: block;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
